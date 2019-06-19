@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.center {
+    text-align:center;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.margin-top {
+    margin-top: 10%;
+}
+
+button {
+    margin-top:5px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn-primary {
+    background-color: red;
+    border-color: red;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(211, 35, 35);
+    border-color:rgb(211, 35, 35);
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button > a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;   /* Height of the footer */
+    color:white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    
+ }
+ 
+ h1 > strong {
+    font-family: 'Source Code Pro', monospace;
+}
